@@ -145,6 +145,11 @@ h4 {
     margin-left: 10%;
     margin-right: -5%;
     width: 200px;
+    transition: transform 2;
+}
+
+.batcinema img:hover {
+    transform: scale(1.1);
 }
 
 .batcinema .img3 {
@@ -192,8 +197,11 @@ h4 {
     width: 200px;
     margin-left: 15%;
     margin-right: -10%;
+    transition: transform 2;
 }
-
+.bord2 img:hover{
+    transform: scale(1.1);
+}
 .nemesis .img6 {
     display: none;
 }
